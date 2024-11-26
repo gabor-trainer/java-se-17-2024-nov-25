@@ -1,6 +1,7 @@
 package com.example;
 
-public class FileDemoStream extends DemoStream {
+// 1000 lines of code
+public class FileDemoStream implements DemoStream {
 
     @Override
     public void open(String uri) {
