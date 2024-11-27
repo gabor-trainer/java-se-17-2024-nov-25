@@ -7,8 +7,6 @@ public class App {
         var cryptoService = new AesCryptoService();
         var cryptoStream = new CryptoDemoStream(fileStream, cryptoService);
 
-        cryptoStream.write();
-
         processor.process(cryptoStream, "file:///example.txt");
     }
 }
